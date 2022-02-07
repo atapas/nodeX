@@ -1,7 +1,7 @@
 # nodeX
 
 <p align="center">
-  <img src="./assets/GitHub-Social.png alt="social" />
+  <img src="./assets/GitHub-Social.png" alt="social" />
 </p>
 
 `nodeX` is an `OpenSource` project to capture working code examples for various node.js modules.
