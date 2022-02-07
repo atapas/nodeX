@@ -4,7 +4,7 @@ Find [example code](./code) for most frequent file system operations in this mod
 
 ## ToC
 
-=> [Parent](../Readme.md)
+<= [Parent](../Readme.md)
 
 - [How to Create a file](./code/createFile.js)
 - [How to Read a file](./code/readFile.js)
