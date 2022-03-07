@@ -10,6 +10,10 @@ It is aimed to help Node.js developers with code examples. Please contribute to 
 
 Liked the motive? Please give a star(⭐) to the project.
 
+### Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
+
+[![Stargazers repo roster for @atapas/nodeX](https://reporoster.com/stars/atapas/nodeX)](https://github.com/atapas/nodeX/stargazers)
+
 ## ToC
 
 - [Node.js File System Module Code Examples](./fs-module/Readme.md)
