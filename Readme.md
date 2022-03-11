@@ -16,4 +16,6 @@ Liked the motive? Please give a star(⭐) to the project.
 
 ## ToC
 
-- [Node.js File System Module Code Examples](./fs-module/Readme.md)
+- [Node.js File System Module Code Examples](./fs-module)
+- [Node.js HTTP Module Code Example](./http-module)
+- [Node.js HTTPS Module Code Example](./https-module)
