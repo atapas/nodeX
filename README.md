@@ -19,3 +19,4 @@ Liked the motive? Please give a star(⭐) to the project.
 - [Node.js File System Module Code Examples](./fs-module)
 - [Node.js HTTP Module Code Example](./http-module)
 - [Node.js HTTPS Module Code Example](./https-module)
+- [Node.js URL Module Code Example](./url-module)
