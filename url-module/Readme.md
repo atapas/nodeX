@@ -8,4 +8,4 @@ Find [example code](./code) for most frequent URL module operations in this modu
 
 - [How to use the URL METHOD](./code/url-method.js)
 - [How to use the URL module properties](./code/using-url-properties.js)
-- [ToString and ToJson in URL module](./code/toSring-and-toJson.js)
+- [ToString and ToJson in URL module](./code/toString-and-Json.js)
