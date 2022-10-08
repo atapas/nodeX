@@ -4,7 +4,7 @@ Find [example code](./code) for most frequent URL module operations in this modu
 
 ## ToC
 
-<= [Parent](../Readme.md)
+<= [Parent](../README.md)
 
 - [How to use the URL METHOD](./code/url-method.js)
 - [How to use the URL module properties](./code/using-url-properties.js)

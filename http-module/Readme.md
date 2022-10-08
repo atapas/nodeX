@@ -4,7 +4,8 @@ Find [example code](./code) for most frequent HTTP module operations in this mod
 
 ## ToC
 
-<= [Parent](../Readme.md)
+<= [Parent](../README.md)
+
 - [How to create a server](./code/create-server.js)
 - [How to send response a header to a request](./code/write-head.js)
 - [How to header value for implicit header](./code/set-header.js)
