@@ -20,3 +20,4 @@ Liked the motive? Please give a star(⭐) to the project.
 - [Node.js HTTP Module Code Example](./http-module)
 - [Node.js HTTPS Module Code Example](./https-module)
 - [Node.js URL Module Code Example](./url-module)
+- [Node.js Assert Module Code Example](./assert-module)
