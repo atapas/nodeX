@@ -1,0 +1,25 @@
+<div class="container px-4 py-5" id="custom-cards">
+  <div class="row align-items-center justify-content-around module-row">
+    <div class="col-11" style="cursor: pointer;">
+      <h2 class="border-bottom" style="text-transform: uppercase;">Module: {{ groupName }}
+    </div>
+    <div class="col-1">
+      <a
+        class="btn btn-link"
+        data-bs-toggle="collapse"
+        href="#{{ collapseTarget }}"
+        role="button"
+        aria-expanded="false"
+        aria-controls="{{ collapseTarget }}">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+          <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+  </h2>
+
+  <div id="{{ collapseTarget }}" class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2 collapse">
+    {{ topics }}
+  </div>
+</div>
