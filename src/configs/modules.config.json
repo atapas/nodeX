@@ -1,0 +1,26 @@
+[
+    {
+        "name": "fs",
+        "icon": ""
+    },
+    {
+        "assert": "fs",
+        "icon": ""
+    },
+    {
+        "name": "http",
+        "icon": ""
+    },
+    {
+        "name": "https",
+        "icon": ""
+    },
+    {
+        "name": "default",
+        "icon": ""
+    },
+    {
+        "name": "url",
+        "icon": ""
+    }
+]
