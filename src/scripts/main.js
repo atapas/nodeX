@@ -1,6 +1,9 @@
 const openDialog = ({ html = '', topic = '' }) => {
+    console.log(html)
+    const highlightedHtml = `<pre><code class="languages-js">${Prism.highlight(html, Prism.languages.javascript, 'javascript')}</code></pre>`;
+
     document.getElementById('modalTitle').innerHTML = `module - ${topic}`.toUpperCase();
-    document.getElementById('modalContent').innerHTML = html;
+    document.getElementById('modalContent').innerHTML = highlightedHtml;
     const options = {};
     const modal = new bootstrap.Modal(document.getElementById('staticBackdropModal'), options);
     modal.show();
