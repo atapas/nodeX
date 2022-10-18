@@ -49,3 +49,4 @@ Feel free to contribute.
 - [Node.js HTTPS Module Code Example](./https-module)
 - [Node.js URL Module Code Example](./url-module)
 - [Node.js Assert Module Code Example](./assert-module)
+- [Node.js Sequelize Module Code Example](./sequelize-module)
