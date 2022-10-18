@@ -50,3 +50,4 @@ Feel free to contribute.
 - [Node.js URL Module Code Example](./url-module)
 - [Node.js Assert Module Code Example](./assert-module)
 - [Node.js Sequelize Module Code Example](./sequelize-module)
+- [Node.js Console Module Code Example](./console-module)
