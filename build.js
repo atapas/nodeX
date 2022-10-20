@@ -56,12 +56,7 @@ const getFeatures = async ({ folderPaths = [] }) => {
                 .replace(regex, '$4')
                 .replace(/([A-Z])/, ' $1')
                 .replace(/(\-)/, ' ');
-            const parsedContent = content
-                .replace(/</gmi, '&lt')
-                .replace(/>/gmi, '&gt')
-                .replace(/(?:\r\n|\r|\n)/g, '<br>');
-            const html = `<code>${parsedContent}</code>`
-            return { group, topic, html, id };
+            return { group, topic, html: content, id };
         });
 };
 
