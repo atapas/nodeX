@@ -1,5 +1,4 @@
 const openDialog = ({ html = '', topic = '' }) => {
-    console.log(html)
     const highlightedHtml = `<pre><code class="languages-js">${Prism.highlight(html, Prism.languages.javascript, 'javascript')}</code></pre>`;
 
     document.getElementById('modalTitle').innerHTML = `module - ${topic}`.toUpperCase();
@@ -7,6 +6,16 @@ const openDialog = ({ html = '', topic = '' }) => {
     const options = {};
     const modal = new bootstrap.Modal(document.getElementById('staticBackdropModal'), options);
     modal.show();
+    copyToClipboard(html);
+}
+
+const copyToClipboard = (html) => {
+    const copyToClipboardBtn = document.getElementById('copyToClipboard');
+    copyToClipboardBtn.addEventListener('click', async () => {
+        if ('clipboard' in navigator) {
+            await navigator.clipboard.writeText(html);
+        }
+    })
 }
 
 window.onload = () => {
