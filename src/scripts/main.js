@@ -14,6 +14,11 @@ const copyToClipboard = (html) => {
     copyToClipboardBtn.addEventListener('click', async () => {
         if ('clipboard' in navigator) {
             await navigator.clipboard.writeText(html);
+            copyToClipboardBtn.classList.add('active');
+            const timeout = setTimeout(() => {
+                copyToClipboardBtn.classList.remove('active');
+                clearTimeout(timeout)
+            }, 1000);
         }
     })
 }
