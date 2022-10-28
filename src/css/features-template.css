@@ -108,3 +108,23 @@
     background: rgb(42, 36, 82);
     -webkit-transform: scale(1.1);
 }
+
+.copied-to-clipboard-btn {
+    min-width: 152px;
+}
+
+.copied-to-clipboard-btn .idle {
+    display: block;
+}
+
+.copied-to-clipboard-btn .copied {
+    display: none;
+}
+
+.copied-to-clipboard-btn.active .idle {
+    display: none;
+}
+
+.copied-to-clipboard-btn.active .copied {
+    display: block;
+}
