@@ -51,3 +51,4 @@ Feel free to contribute.
 - [Node.js Assert Module Code Example](./assert-module)
 - [Node.js Sequelize Module Code Example](./sequelize-module)
 - [Node.js Console Module Code Example](./console-module)
+- [Node.js Errors Module Code Example](./errors-module)
