@@ -19,6 +19,8 @@ const copyToClipboard = (html) => {
                 copyToClipboardBtn.classList.remove('active');
                 clearTimeout(timeout)
             }, 1000);
+        } else {
+            alert('This functionality is not supported by your browser')
         }
     })
 }
